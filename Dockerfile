@@ -68,7 +68,7 @@ RUN python3 -m pip install -r ./rvc/requirements.txt
 RUN python3 -m pip install git+https://github.com/liyaodev/fairseq
 
 # RVC Pipeline
-RUN python3 -m pip install git+https://github.com/JarodMica/rvc-tts-pipeline.git@lightweight#egg=rvc_tts_pipe
+RUN "python3 -m pip install git+https://github.com/JarodMica/rvc-tts-pipeline.git@lightweight#egg=rvc_tts_pipe"
 
 # Deepspeed
 RUN python3 -m pip install deepspeed
