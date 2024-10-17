@@ -38,6 +38,7 @@ ENV PATH="$HOME/miniconda/bin:$PATH"
 RUN conda init
 RUN conda install python=$PYTHON_VERSION
 RUN python3 -m pip install --upgrade pip
+RUN python3 -m pip install psutil
 RUN pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 
 # Base path
@@ -68,7 +69,7 @@ RUN python3 -m pip install -r ./rvc/requirements.txt
 RUN python3 -m pip install git+https://github.com/liyaodev/fairseq
 
 # RVC Pipeline
-RUN "python3 -m pip install git+https://github.com/JarodMica/rvc-tts-pipeline.git@lightweight#egg=rvc_tts_pipe"
+RUN python3 -m pip install git+https://github.com/JarodMica/rvc-tts-pipeline.git@lightweight#egg=rvc_tts_pipe
 
 # Deepspeed
 RUN python3 -m pip install deepspeed
