@@ -1,5 +1,5 @@
 # ignores user files
-'server exited unexpectedly'
+server*exited*unexpectedly
 /ffmpeg/
 /personal_testing/
 *.7z
