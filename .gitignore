@@ -1,4 +1,6 @@
 # ignores user files
+downloads/
+notes/
 server*exited*unexpectedly
 /ffmpeg/
 /personal_testing/
