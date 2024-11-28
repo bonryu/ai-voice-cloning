@@ -17,4 +17,29 @@ python3 -m pip install -r ./requirements.txt                      # install loca
 
 # rm *.bat
 
+# download rvc_lightweight.zip but install rvc requirements only.
+# pip install  -r/modules/rvc/requirements.txt
+# above  works but needed to change the following:
+# numba>=0.56.4   # == 0.56.4
+# llvmlite>=0.39.0 # ==0.39.0
+# download fairseq whl
+# download deepspeed whl
+# download pyfastmp3decoder whl
+#
+# Install fairseq whl
+# - fairseq v0.10.2 installs whl
+# - Had to following the instructions from https://github.com/facebookresearch/fairseq to clone the repo and "pip install -e ./"
+# Install rvc-tts-pipeline from git egg (aka by project name)
+# - python3 -m pip install git+https://github.com/JarodMica/rvc-tts-pipeline.git@lightweight#egg=rvc_tts_pipe
+# Install deepspeed whl
+# Install pyfastmp3decoder whl
+# Install whisperx from git
+#
+# easy-install.pth
+# __editable___dlas_0_0_1_finder.py
+# __editable__.dlas-0.0.1.pth
+# __editable___fairseq_0_10_2_finder.py
+# __editable__.fairseq-0.10.2.pth
+# __editable___TorToiSe_2_4_5_finder.py
+# __editable__.TorToiSe-2.4.5.pth
 deactivate

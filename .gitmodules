@@ -7,3 +7,9 @@
 [submodule "modules/tortoise_dataset_tools"]
 	path = modules/tortoise_dataset_tools
 	url = https://github.com/JarodMica/tortoise_dataset_tools.git
+[submodule "modules/rvc"]
+  path = modules/rvc
+  url = https://github.com/RVC-Project/Retrieval-based-Voice-Conversion.git
+[submodule "modules/Retrieval-based-Voice-Conversion"]
+	path = modules/Retrieval-based-Voice-Conversion
+	url = https://github.com/RVC-Project/Retrieval-based-Voice-Conversion.git
