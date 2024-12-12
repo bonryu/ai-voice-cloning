@@ -13,3 +13,6 @@
 [submodule "modules/Retrieval-based-Voice-Conversion"]
 	path = modules/Retrieval-based-Voice-Conversion
 	url = https://github.com/RVC-Project/Retrieval-based-Voice-Conversion.git
+[submodule "modules/rvc-pipe"]
+	path = modules/rvc-pipe
+	url = https://github.com/JarodMica/rvc-tts-pipeline.git
